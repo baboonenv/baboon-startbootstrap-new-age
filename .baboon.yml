@@ -1,0 +1,57 @@
+info:
+    theme_name: 'Start Bootstrap New Age Landing Page'
+    update_zip_uri: 'https://github.com/behram/baboon-startbootstrap-new-age/archive/master.zip'
+    update_git_uri: 'git@github.com:behram/baboon-startbootstrap-new-age.git'
+
+render_files:
+    - index.html
+
+assets:
+    site_title:
+        label: 'Site Title'
+        type: string
+        max: 50
+        min: 10
+        default: New Age - Start Bootstrap Theme
+    page_top_title:
+        label: 'Page Top Title'
+        type: string
+        max: 50
+        min: 10
+        default: Start Bootstrap
+    landing_description:
+        label: 'Landing Description'
+        type: text
+        max: 500
+        min: 10
+        default: New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!
+    landing_button:
+        label: 'Landing Button Description'
+        type: string
+        max: 50
+        min: 10
+        default: Start Now for Free!
+    download_description:
+        label: 'Download Description'
+        type: string
+        max: 50
+        min: 10
+        default: Discover what all the buzz is about!
+    google_play_link:
+        label: 'Google Play Link'
+        type: string
+        max: 50
+        min: 10
+        default: "https://play.google.com/store/apps/details?id=com.pepapp&hl=tr"
+    app_store_link:
+        label: 'App Store Link'
+        type: string
+        max: 50
+        min: 10
+        default: "https://itunes.apple.com/us/app/pepapp-period-tracker/id1130242486?mt=8"
+    landing_image:
+        label: 'Landing Image'
+        type: image
+        width: 286
+        height: 509
+        default: "img/demo-screen-1.jpg"
